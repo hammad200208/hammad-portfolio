@@ -1,6 +1,6 @@
 import React from "react";
 import { FaLinkedin, FaGithub, FaBriefcase } from "react-icons/fa";
-import { motion } from "framer-motion";
+import {motion} from "framer-motion";
 
 const Home = () => {
   return (
