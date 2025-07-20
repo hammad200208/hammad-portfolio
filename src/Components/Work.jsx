@@ -3,22 +3,22 @@ import { motion } from "framer-motion";
 
 const projects = [
   {
-    title: "Portfolio Website",
-    image: "/work1.jpg",
-    description: "Modern personal portfolio built with React and Tailwind CSS.",
-    link: "https://your-portfolio-link.com",
+    title: "Planto Project",
+    image: "/work1.PNG",
+    description: "Modern Plants Project built with React and Tailwind CSS.",
+    link: "https://github.com/hammad200208/Planto-Project.git",
   },
   {
-    title: "E-commerce Landing Page",
-    image: "/work2.jpg",
-    description: "Landing page for a plant store built with HTML, SCSS, and JavaScript.",
-    link: "https://your-ecommerce-link.com",
+    title: "Bootsrap Portfolio Project",
+    image: "/work2.PNG",
+    description: "Landing page for a portfolio built with HTML, Bootsrap, and JavaScript.",
+    link: "https://github.com/hammad200208/Bootsrap-Project.git",
   },
   {
     title: "Rock Paper Scissors Game",
-    image: "/work3.jpg",
+    image: "/work3.PNG",
     description: "Interactive game with score tracking using Vanilla JS.",
-    link: "https://your-game-link.com",
+    link: "https://github.com/hammad200208/Rock-Paper-Scissor-Game.git",
   },
 ];
 

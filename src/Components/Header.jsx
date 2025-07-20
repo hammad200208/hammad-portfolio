@@ -39,11 +39,15 @@ const Header = () => {
 
   return (
     <header className="w-full fixed top-0 left-0 z-50 bg-white shadow-md">
-      <div className="max-w-7xl mx-auto px-6 py-4 flex items-center">
+      <div className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
         {/* Logo */}
-        <h1 className="text-2xl font-bold text-green-700 flex-1">
-          MyPortfolio
-        </h1>
+        <div className="flex-1">
+          <img
+            src="/logo.png"
+            alt="MH Logo"
+            className="h-10 md:h-15 w-auto object-contain"
+          />
+        </div>
 
         {/* Desktop Nav */}
         <nav className="hidden md:flex space-x-8">

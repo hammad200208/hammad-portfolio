@@ -9,7 +9,7 @@ const Footer = () => {
       whileInView={{ opacity: 1, y: 0 }} // Animate to visible and neutral Y position
       transition={{ duration: 0.8, delay: 0.3 }} // Optional delay and duration
       viewport={{ once: true, amount: 0.5 }} // Trigger only once, when 50% is visible
-      className="bg-[#1c261a] text-white py-6"
+      className="bg-blue-950 text-white py-6"
     >
       <div className="max-w-6xl mx-auto px-4 flex flex-col items-center justify-center space-y-4">
         <div className="flex space-x-4 sm:space-x-6 text-lg sm:text-xl">
@@ -23,7 +23,7 @@ const Footer = () => {
             <FaFacebookF />
           </a>
           <a
-            href="https://linkedin.com"
+            href="www.linkedin.com/in/mohammad-hammad-778b03258"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="LinkedIn"
